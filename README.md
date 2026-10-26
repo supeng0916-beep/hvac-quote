@@ -6,7 +6,7 @@ HVAC Quote（Heating, Ventilation and Air Conditioning Quotation System）是一
 
 面向工程流程展示、学习与二次开发。仓库中的演示图纸、客户、数量和价格均为人工构造，不包含真实客户项目。
 
-![项目总览](docs/images/01-workspace.png)
+![项目总览](docs/images/01-workspace.jpg)
 
 ## 工作流程
 
@@ -30,20 +30,35 @@ HVAC Quote（Heating, Ventilation and Air Conditioning Quotation System）是一
 <details>
 <summary>图纸检查：候选设备、管线与待核对问题</summary>
 
-![图纸检查](docs/images/02-inspection.png)
+![图纸检查](docs/images/02-inspection.jpg)
 
 </details>
 
 **数量与价格确认**
 
-![人工确认](docs/images/03-confirmation.png)
+![人工确认](docs/images/03-confirmation.jpg)
 
 <details open>
 <summary>报价结果：金额、下载入口与未包含范围</summary>
 
-![报价结果](docs/images/04-quotation.png)
+![报价结果](docs/images/04-quotation.jpg)
 
 </details>
+
+### 导出文件预览
+
+以下两张图来自上面演示项目实际生成的文件，合计均为 **3,122.00**。PDF 展示原文件第一页的直接渲染预览；Excel 展示在 LibreOffice Calc 中打开导出工作簿的真实截图。
+
+<details open>
+<summary>PDF 报价单：明细、合计与未计入说明</summary>
+
+![PDF 报价单预览](docs/images/05-pdf-export.png)
+
+</details>
+
+**Excel 报价明细**
+
+![Excel 工作簿截图](docs/images/06-excel-export.jpg)
 
 截图生成方式见 [界面预览说明](docs/screenshots.md)。
 
