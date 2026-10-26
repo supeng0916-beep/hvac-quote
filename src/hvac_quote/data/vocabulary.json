@@ -1,0 +1,134 @@
+{
+  "equipment_layer_markers": [
+    "AC",
+    "HVAC",
+    "空调",
+    "设备",
+    "INAC",
+    "OUTAC",
+    "VRV",
+    "FQCA"
+  ],
+  "equipment_text_markers": [
+    "MDV",
+    "KFR",
+    "FP-",
+    "室内机",
+    "室外机",
+    "风机盘管",
+    "多联机",
+    "新风机",
+    "水泵",
+    "阀门",
+    "冷却塔",
+    "水处理",
+    "膨胀水箱",
+    "分水器",
+    "集水器",
+    "冷水机组"
+  ],
+  "pipe_layer_markers": [
+    "冷媒",
+    "铜管",
+    "气管",
+    "液管",
+    "排水",
+    "冷凝",
+    "水管",
+    "保温",
+    "PIPE",
+    "REF",
+    "DRAIN",
+    "WATER",
+    "CMDLJ",
+    "BZ",
+    "QG",
+    "YLG",
+    "WL",
+    "JL",
+    "CHW",
+    "CWS",
+    "CDS",
+    "冷冻水",
+    "冷却水",
+    "补水"
+  ],
+  "water_system_hints": [
+    "水泵",
+    "阀门",
+    "冷却塔",
+    "水处理",
+    "冷冻水",
+    "冷却水",
+    "补水",
+    "水管",
+    "水系统"
+  ],
+  "water_route_markers": [
+    "水管",
+    "供水",
+    "回水",
+    "空冷",
+    "冷冻水",
+    "冷却水",
+    "补水",
+    "给水",
+    "water",
+    "CHW",
+    "CWS",
+    "CDS"
+  ],
+  "floor_title_markers": [
+    "平面图",
+    "层平面",
+    "首层",
+    "底层",
+    "屋顶层"
+  ],
+  "frame_layer_markers": [
+    "图框",
+    "边框",
+    "会签",
+    "TITLE",
+    "FRAME",
+    "BORDER"
+  ],
+  "pipe_text_markers": [
+    "铜管",
+    "冷媒",
+    "液管",
+    "气管",
+    "排水",
+    "冷凝",
+    "水管",
+    "冷冻水",
+    "冷却水",
+    "补水",
+    "保温",
+    "DN",
+    "Φ",
+    "φ"
+  ],
+  "model_text_markers": [
+    "MDV",
+    "KFR",
+    "FP-",
+    "室内机",
+    "室外机",
+    "多联机"
+  ],
+  "model_code_markers": [
+    "MDV",
+    "KFR",
+    "FP-",
+    "RMX",
+    "MMD",
+    "FXD"
+  ],
+  "refrigerant_layer_aliases": [
+    "ACS_DLJ_QYG"
+  ],
+  "condensate_layer_aliases": [
+    "ACS_KT_LN"
+  ]
+}

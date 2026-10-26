@@ -1,0 +1,30 @@
+services:
+  hvac-quote:
+    build:
+      context: .
+      args:
+        BASE_IMAGE: ${HVAC_BASE_IMAGE:-python:3.12-slim}
+    image: hvac-quote:0.1.0
+    container_name: hvac-quote
+    restart: unless-stopped
+    ports:
+      # 默认只允许本机访问；局域网测试时设置 HVAC_BIND=0.0.0.0。
+      - "${HVAC_BIND:-127.0.0.1}:${HVAC_PORT:-8000}:8000"
+    environment:
+      HVAC_DATA_DIR: /data
+      HVAC_RUNS_DIR: /data/runs
+      HVAC_DEFAULT_TEMPLATE: /data/default-template.xlsx
+      PORT: "8000"
+    volumes:
+      # Windows 上使用 ./data 绑定目录；备份时连同此目录一起复制。
+      - ./data:/data
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
